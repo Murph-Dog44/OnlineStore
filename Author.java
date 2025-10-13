@@ -1,3 +1,6 @@
+// PreCondition: each author must have a String name and birthdate
+// PostCondition: Creates an "Author" object with a name and a birthdate
+
 public class Author
 {
     private String name;

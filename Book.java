@@ -1,3 +1,5 @@
+// PreCondition: each book must have a publisher, along with all the other things that an ItemForSale has.
+// PostCondition: creates a book with a name, publisher, placed date, creator(s), and price. 
 import java.util.ArrayList;
 
 public class Book extends ItemForSale

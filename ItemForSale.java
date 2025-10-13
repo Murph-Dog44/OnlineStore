@@ -1,3 +1,5 @@
+// PreCondition: given a name, placed date, creator(s) and price.
+// PostCondition: creates an object with a name, placed date, creator(s), and price. 
 import java.util.ArrayList;
 
 public class ItemForSale

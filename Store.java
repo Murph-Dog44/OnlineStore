@@ -39,14 +39,20 @@ public class Store
     items = i;
   }
 
+  // preCondition: the Store has items, otherwise items is null/empty.
+  // postCondition: returns an arraylist of all Items for sale.
   public ArrayList<ItemForSale> showItems(){
     return items;
   }
 
+  // preCondition: items is an arrayList, and item is a valid itemForSale.
+  // postCondition: adds an ItemForSale to items.
   public void addItem(ItemForSale item){
     items.add(item);
   }
 
+  // preCondition: items is an arrayList, and item is a valid itemForSale.
+  // postCondition: sells an ItemForSale if the item is in items.
   public void sellItem(ItemForSale item){
     for (int i = 0; i< items.size(); i++){
       if (items.get(i).equals(item)){
@@ -56,7 +62,8 @@ public class Store
       }
     }
   }
-
+  // preCondition: item is a valid itemForSale with a creator(s).
+  // postCondition: returns a list of the creators of item.
   public ArrayList<Author> creator(ItemForSale item){
     return (item.getCreators());
   }
