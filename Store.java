@@ -1,3 +1,6 @@
+// Taiyo Murphy 10/14/25
+// Creates a Store, which has itemsForSale, which can be added and sold, and a profit that is stored within class.
+
 /*Implement the following functionality into the store:
 
   instance variables: 
